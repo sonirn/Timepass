@@ -11,7 +11,7 @@ source $HOME/.cargo/env
   --output "$3" \
   --checkpoint "$4" \
   --derivation-paths "$5" \
-  --chunk-size 1000000 "$6" \
+  --chunk-size "$6" \
   --threads "$7" \
   --checkpoint-interval "$8" \
   ${9:+--verbose}
